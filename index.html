@@ -6,8 +6,8 @@
         <meta name="description" content="Landing page" />
         <meta name="author" content="Nicolas Vaquero" />
         <title>Al Volante, escuela de manejo</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Favicon
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+          <!-- Cambia 'mi_icono.png' por la ruta de tu propia imagen -->
+        <link rel="icon" href="./assets/icono-alvolante.jpg" type="image/jpg">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -29,7 +31,7 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#packs">Packs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
                         <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
@@ -88,65 +90,71 @@
                         <h4 class="my-3">Alquiler de auto para rendir examén</h4>
                         <p class="text-muted">Te alquilamos el vehiculo para que puedas rendir sin preocuparte por nada más.</p>
                     </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Servicio puerta a puerta</h4>
+                        <p class="text-muted">Te pasamos a buscar y te dejamos en tu domicilio para que no tengas que moverte.</p>
+                    </div>
                 </div>
             </div>
-        </section>
-                <!-- cursos-->
-                <section class="page-section" id="cursos">
-                    <div class="container">
-                        <div class="text-center">
-                            <h2 class="section-heading text-uppercase">Cursos</h2>
-                            <h3 class="section-subheading text-muted">Contamos con los siguientes packs de clases</h3>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-md-4">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fas fa-1 fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 class="my-3">5 clases</h4>
-                                <!-- <p class="text-muted">Tarjeta  $24.000</p>
-                                <p class="text-muted">Efectivo $19.000</p>                                 -->
-                            </div>
-                            <div class="col-md-4">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fas fa-2 fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 class="my-3">10 clases</h4>
-                                <!-- <p class="text-muted">Tarjeta  $45.000</p>
-                                <p class="text-muted">Efectivo $36.000</p>                                      -->
-                            </div>
-                            <!-- <div class="col-md-4">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fas fa-3 fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 class="my-3">15 clases</h4>
-                                <p class="text-muted">Tarjeta  $60.000</p>
-                                <p class="text-muted">Efectivo $48.500</p>                                     
-                            </div> -->
-                            <div class="col-md-4">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fas fa-car fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 class="my-3">Pack Estacionamiento</h4>
-                                <!-- <p class="text-muted">Tarjeta  $14.500</p>
-                                <p class="text-muted">Efectivo $19.000</p>                                      -->
-                            </div>
-                            <div class="col-md-4">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fas fa-car fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 class="my-3">Alquiler de Auto</h4>
-                                <!-- <p class="text-muted">Tarjeta  $10.000</p>
-                                <p class="text-muted">Efectivo $8.000</p>                                      -->
-                            </div>
-                        </div>                            
+
+            
+            <section class="page-section" id="cursos">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">Cursos</h2>
+                        <h3 class="section-subheading text-muted">Contamos con los siguientes packs de clases</h3>
                     </div>
-                </section>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-1 fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">5 clases</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-2 fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">10 clases</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-1 fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">8 clases (Sede Lomas)</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">Pack Estacionamiento</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">Alquiler de Auto</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">Puerta a puerta</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
                 <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="clientes">
             <div class="container">
@@ -345,8 +353,16 @@
                     <br><br>
                     <h class="section-heading text-uppercase">Tel: 1135025648</h>
                 </div>
+                <br><br>
+                <div class="text-center">
+                    <h3 class="section-heading text-uppercase">Sede City Bell</h3>
+                    <h3 class="section-subheading text-muted">Nos encontramos en Cantilo 16</h3>
+                    <iframe class="container-xxl" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.347169367384!2d-58.0424572!3d-34.8666086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dfbe734522fd%3A0xd20fdcf8858dc165!2sEscuela%20de%20Manejo%20-%20Al%20Volante!5e0!3m2!1ses-419!2sar!4v1708478716533!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br><br>
+                    <h class="section-heading text-uppercase">Tel: 1159331703</h>
+                </div>
 
-        </section>
+        </section> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -354,7 +370,7 @@
                     <h2 class="section-heading text-uppercase">Contactanos</h2>
                     <h3 class="section-subheading text-muted">A través de Whatsapp</h3>
                     <span class="fa-stack fa-4x">
-                        <a href="https://api.whatsapp.com/send/?phone=541138823750&text=Hola%2Cque+tal%2C+mi+nombre+es+xxxxx.+Quisiera+pedir+informaci%C3%B3n+sobre+las+clases+de+manejo.+Muchas+Gracias+%3A%29&type=phone_number&app_absent=0" target="_blank">
+                        <a href="https://linktr.ee/alvolante" target="_blank">
 
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa-brands fa-whatsapp fa-stack-1x fa-inverse">
@@ -376,15 +392,15 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Al Volante 2023</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Al Volante 2024</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
                     </div>
                     <div class="col-lg-4 text-lg-end">
-<!--                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a> -->
+                        <a class="link-dark text-decoration-none me-3" href="https://www.linkedin.com/in/nicolasvaquero/">Página diseñada por Nicolás Vaquero</a>
+                        <!-- <a class="link-dark text-decoration-none" href="#!">Nicolas Vaquero</a> -->
                     </div>
                 </div>
             </div>
